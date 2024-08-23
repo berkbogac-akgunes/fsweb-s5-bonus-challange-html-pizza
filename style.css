@@ -39,12 +39,14 @@ body {
 .header2 {
   font-size: 3.2em;
   line-height: 1.1;
-  font-family: "Quattrocento"
+  font-family: "Quattrocento";
+  color: white
 }
 
 .header1 {
   font-size: 2em;
-  font-family: "Barlow"
+  font-family: "Barlow";
+  color: white
 }
 
 .button1 {
@@ -147,6 +149,11 @@ button {
   color: black;
 }
 
+.cesitler-card img {
+  width: 20%;
+  height: auto;
+}
+
 .menu-section {
   width: 100%;
   background-color: white;
@@ -168,6 +175,7 @@ button {
   background-repeat: no-repeat;
   text-align: left;
   border-radius: 50px;
+  color: white;
 }
 
 .menu-card2 {
@@ -179,6 +187,7 @@ button {
   background-repeat: no-repeat;
   text-align: left;
   border-radius: 50px;
+  color: white;
 }
 
 .menu-card3 {
@@ -190,6 +199,11 @@ button {
   background-repeat: no-repeat;
   text-align: left;
   border-radius: 50px;
+}
+
+.yiyecek-card img {
+  width: 100%;
+  height: auto;
 }
 
 .menuHeader1, .menuHeader2, .menuHeader3 {
@@ -212,6 +226,7 @@ button {
 }
 
 .menuButton2 {
+  display: flex;
   background-color: white;
   color: #CE2829;
   border-radius: 100px;
@@ -221,6 +236,7 @@ button {
 }
 
 .menuButton3 {
+  display: flex;
   background-color: white;
   color: #CE2829;
   border-radius: 100px;
